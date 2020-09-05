@@ -1,0 +1,21 @@
+.fa{
+    font-size:70px;
+    color: blue;
+
+    margin-top: 500px;
+    padding-right: 10px;
+    padding: 7px;
+}
+.fa-facebook{
+    color:navy;
+}      
+.fa-twitter{
+    color: gold;
+}  
+.fa-whatsapp{
+    color:cadetblue;
+
+}
+.fa-instagram{
+    color: forestgreen;
+}
