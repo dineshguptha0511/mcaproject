@@ -6,7 +6,7 @@ a{
     text-decoration: none;
     margin: 5px;
     font-size: larger;
-    padding: 5px;
+    padding: 0px;
 
 }
 h3{
@@ -27,7 +27,7 @@ ul{
     display: flex;
     background-color: silver;
     justify-content: flex-end; 
-    padding: 5px;
+    padding: 0;
     
     
 }
@@ -43,8 +43,7 @@ a:hover{
 }
 .Team-Member{
     border:rebeccapurple 20px solid;
-    
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: forestgreen;
 }
 p{
@@ -60,6 +59,7 @@ p{
     text-align: center;
     background-color:tomato;
     padding: 30px;
+    padding-top: 20px;
 }
 h1{
     text-align:center;
@@ -78,12 +78,10 @@ input{
     margin: 5px;
     border: none;
     border-bottom: 1px solid skyblue;
-    
-
+    cursor: pointer;;
 }
 input:focus{
    outline:2px orange solid;
-   
    border:none;
    
 }
@@ -102,12 +100,23 @@ input[type="submit"]{
     box-shadow:2px 2px steelblue outset;
 
 }
+input[type="signin"]{
+    background-color: mediumorchid;
+    width: 170px;
+    height: 30px;
+    border-radius: 25px 25px;
+    box-shadow:2px 2px steelblue outset;
+    text-align: center;
+
+}
    th,td{
         padding: 20px 20px 20px 20px;
     }
     table{
         padding-left: 250px;
-        padding-top: 90px;
+        padding-top: 20px;
+        transform: translate(-50% -50%);
+    
         
     }
     .active{
